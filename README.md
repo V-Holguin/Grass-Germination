@@ -1,5 +1,6 @@
 # Grass-Germination
-Cleaned weather data with SQL then manipulated and visualized it with grass data in Microsoft Excel
+Cleaned weather data with SQL then manipulated and visualized it with grass data in Microsoft Excel  
+to determine the best time to plant grass seed.  
 
 ## Took a messy table from 105,298 rows and 30 columns to 732 rows and 16 columns when exporting from MySQL Workbench.
   - Data was weather conditions at March Air Force Base (close proximity to my house)
