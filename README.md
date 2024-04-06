@@ -15,5 +15,5 @@ to determine the best time to plant grass seed.
   - Created dashboards to see all the data with live updating graphs based on a user selected date range and grass type
 
 
-Data attributed to the Iowa Environmental Mesonet of Iowa State University
+Data attributed to the Iowa Environmental Mesonet of Iowa State University<br>
 Usage outlined [here](https://mesonet.agron.iastate.edu/disclaimer.php)
