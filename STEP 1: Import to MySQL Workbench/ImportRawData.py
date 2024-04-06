@@ -6,7 +6,7 @@ from sqlalchemy import text
 df_weather = pd.read_csv('C:\\Users\\vince\OneDrive\Desktop\\March Air Force Base Last 10 Years.csv')
 
 # Create a connection to the MySQL database
-engine = create_engine('mysql+pymysql://root:password@localhost:3306/mydb')
+engine = create_engine('mysql+pymysql://username:password@localhost:3306/mydb')
 
 # Write the data from the DataFrame to a new MySQL table
 df_weather.to_sql('weather', con=engine, index=False, if_exists='replace')
