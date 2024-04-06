@@ -18,6 +18,7 @@ Deleted missing data, and changed my column types to useful ones<br>
 **See 1.4.sql**<br>
 <br>
 <br>
+  
 ## Organizing my data
 <br>
 To organize by day I averaged my columns by day and night. For the weather I counted the coverage types and made the highest count the value for that time period.<br>
