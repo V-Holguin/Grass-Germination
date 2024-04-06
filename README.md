@@ -12,7 +12,7 @@ to determine the best time to plant grass seed.
   - Created helper columns and new sheets to get my data for my charts
   - Added in grass seed germination data
   - Combined charts to create interactive graphs of temperature, dew point, humidity, and wind speed
-  - Created dashboards to see all the data with live updating graphs that can have the date range and grass type selected
+  - Created dashboards to see all the data with live updating graphs based on a user selected date range and grass type
 
 
 Data attributed to the Iowa Environmental Mesonet of Iowa State University
