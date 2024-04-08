@@ -1,14 +1,17 @@
+# count each weather type occurrence
 SELECT sky, count(sky) as count
 FROM weather
 GROUP BY sky
 ORDER BY count;
 
+# set low occurring weather types to 'M' for 'missing'
 UPDATE weather
 SET sky = 'M'
 WHERE sky IN ('MIFG','PRFG','VCFG','FZFG','DZ','-DZ VCTS','HZ FU',
 			'BLDU','VCBLDU','FU','BCFG','SQ''DU')
 ;
 
+# group the remaining codes into precipitation levels
 UPDATE weather
 SET sky = CASE
     WHEN sky LIKE '%+RA%' OR sky LIKE '%+TS%' OR sky LIKE '+SH%' THEN 'hvy_precip'
